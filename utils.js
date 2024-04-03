@@ -4,7 +4,7 @@
 // Listing 7.5 (p.123)
 const fs = require('fs'),
     httpStatus = require('http-status-codes'),
-    contentType = require('./content-types');
+    contentTypes = require('./content-types');
 
 module.exports = {
     getFile: (file, res) => {
@@ -14,8 +14,8 @@ module.exports = {
                     contentTypes.html
                 );
                 res.end("Error serving content!");
-            }
-            res.end(data)
-        })
-    }
+            };
+            res.end(data);
+        });
+    },
 }

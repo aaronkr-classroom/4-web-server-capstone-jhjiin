@@ -1,10 +1,10 @@
-// content-type.js
+// content-types.js
 "use strict";
 
-// listing 7.4 (p.112)
+// Listing7.4 (p.112)
 module.exports = {
     html: {
-        "Content-Type": "text/html"
+        "Content-Type": "text/html" 
     },
     text: {
         "Content-Type": "text/plain"
@@ -13,12 +13,12 @@ module.exports = {
         "Content-Type": "text/css"
     },
     js: {
-        "Content-Type": "text/javascript"
+        "Content-Type": "text/javascript"       
     },
     jpg: {
-        "Content-Type": "text/jpg"
+        "Content-Type": "image/jpg"
     },
-    png: {
-    "Content-Type": "text/png"     
+    img: {
+        "Content-Type": "image/png"        
     }
 }
